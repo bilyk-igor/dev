@@ -1,0 +1,23 @@
+package animals;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Dog dog = new Dog("some", 5, true);
+
+		Pet pet = new Dog("asd", 12, false);
+		
+		Pet pet2 = new Cat("asdf", 1234, "orange");
+		
+		System.out.println(returnAge(dog));
+		
+	}
+	
+	public static int returnAge(Dog dog){
+		
+		
+		return dog.getAge() * 6;
+	}
+	
+	
+}

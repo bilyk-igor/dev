@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="core_01.User"/>
+<fullyQualifiedTypeName name="animals.Weapon"/>
+<fullyQualifiedTypeName name="core_02.Car"/>
+<fullyQualifiedTypeName name="animals.Dog"/>
+<fullyQualifiedTypeName name="animals.Cat"/>
+<fullyQualifiedTypeName name="animals.Pet"/>
+<fullyQualifiedTypeName name="animals.Animal"/>
+<fullyQualifiedTypeName name="life.Gold"/>
+<fullyQualifiedTypeName name="core_03.User"/>
+<fullyQualifiedTypeName name="animals_03.Cat"/>
+<fullyQualifiedTypeName name="animals_03.Dog"/>
+<fullyQualifiedTypeName name="animals_03.Animal"/>
+<fullyQualifiedTypeName name="core_04.User"/>
+<fullyQualifiedTypeName name="animals_04.Cat"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="animals_04.Dog"/>
+</qualifiedTypeNameHistroy>

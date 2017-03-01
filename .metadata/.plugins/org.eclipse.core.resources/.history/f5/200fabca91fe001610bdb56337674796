@@ -1,0 +1,25 @@
+package animals;
+
+public class Main {
+	public static void main(String[] args) {
+		
+
+		Pet dog = new Dog();
+		dog.setAge(123);
+		dog.setName(name);
+		
+		
+		Pet cat = new Cat("asdf", 1234, "orange");
+	 
+		dog.voice();
+		cat.voice();
+		
+		
+		System.out.println(dog);
+		
+	}
+	
+	 
+	
+	
+}

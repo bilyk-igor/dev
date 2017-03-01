@@ -1,0 +1,27 @@
+package animals_04;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Dog dog = new Dog();
+
+		dog.setAge(5);
+
+		Cat cat = new Cat();
+
+		cat.setAge(7);
+
+	}
+	
+	public int returnDogAge(Dog dog){
+		return dog.getAge() *7;
+	}
+	
+	public int returnCatAge(Cat cat){
+		return cat.getAge() *7;
+	}
+	
+	
+
+}

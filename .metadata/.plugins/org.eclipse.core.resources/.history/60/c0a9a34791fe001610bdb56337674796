@@ -1,0 +1,31 @@
+package animals;
+
+public class Dog extends Pet{
+
+	private boolean bite;
+
+	public Dog(String name, int age, boolean bite) {
+		super(name, age);
+		this.bite = bite;
+	}
+
+	public boolean isBite() {
+		return bite;
+	}
+
+	public void setBite(boolean bite) {
+		this.bite = bite;
+	}
+	
+	public void voice(){
+		System.out.println("hav hav hav");
+	}
+
+	@Override
+	public String toString() {
+		return "Dog [bite=" + bite + "] "+super.toString();
+	}
+	
+	
+	
+}

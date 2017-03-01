@@ -1,0 +1,22 @@
+package animals;
+
+public class Dog {
+
+	private boolean bite;
+
+	public Dog(boolean bite) {
+		super();
+		this.bite = bite;
+	}
+
+	public boolean isBite() {
+		return bite;
+	}
+
+	public void setBite(boolean bite) {
+		this.bite = bite;
+	}
+	
+	
+	
+}

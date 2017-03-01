@@ -59,6 +59,8 @@ public class Man {
 		
 		this.gold = gold;
 	}
+
+
 	
 	
 	

@@ -1,0 +1,38 @@
+package animals;
+
+public class Dog extends Pet{
+
+	private boolean bite;
+
+	private Weapon weapon;
+	
+	public Dog() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Dog(String name, int age, boolean bite) {
+		super(name, age);
+		this.bite = bite;
+	}
+
+	public boolean isBite() {
+		return bite;
+	}
+
+	public void setBite(boolean bite) {
+		this.bite = bite;
+	}
+	
+	@Override
+	public void voice(){
+		System.out.println("hav hav hav");
+	}
+
+	@Override
+	public String toString() {
+		return "Dog [bite=" + bite + "] "+super.toString();
+	}
+	
+	
+	
+}

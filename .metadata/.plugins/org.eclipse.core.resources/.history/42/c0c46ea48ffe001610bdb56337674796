@@ -1,0 +1,20 @@
+package animals;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Dog dog = new Dog("some", 5, true);
+
+		Pet pet = new Dog("asd", 12, false);
+		
+		
+	}
+	
+	public int returnAge(Dog dog){
+		
+		
+		return dog.getAge() * 6;
+	}
+	
+	
+}
