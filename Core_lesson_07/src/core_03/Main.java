@@ -15,6 +15,10 @@ public class Main {
 		
 		Transport [] transports = Transport.values();
 	
+		
+		
+		
+		
 		Transport current = Transport.values()[0];
 		
 		for (int i = 0; i < transports.length; i++) {
@@ -26,6 +30,10 @@ public class Main {
 		}
 		
 		System.out.println(current.name()+" "+current.getMaxSpeed());
+		
+		
+		
+		
 		
 		int maxSpeed = 0;
 		String name = "";
