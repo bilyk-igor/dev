@@ -1,0 +1,8 @@
+package core_02;
+
+public interface ValidateMessages {
+
+	String EMAIL_VALIDATION_EXCEPTION = "EMAIL_VALIDATION_EXCEPTION";
+	String LOGIN_VALIDATION_EXCEPTION = "LOGIN_VALIDATION_EXCEPTION";
+	
+}
