@@ -1,0 +1,57 @@
+# DDL     DML       DCL
+#DDL -> CREATE     ALTER 	DROP
+
+#DML -> SELECT  INSERT   UPDATE   DELETE
+
+#DCL -> GRANT      REVOKE
+drop database if exists my_database;
+create database my_database;
+
+use my_database;
+
+create table country(
+	id int primary key auto_increment,
+    name varchar(40)
+);
+
+create table city(
+	id int primary key auto_increment,
+    name varchar(60),
+    population int
+);
+
+create table shop(
+	id int primary key auto_increment,
+    name text,
+    address varchar(100)    
+);
+
+# one to one
+#alter table city 
+#	add constraint
+#	foreign key(id)	references country(id);
+
+#one to many
+alter table city 
+	add column id_country int;
+    
+alter table city 
+	add constraint 
+    foreign key(id_country)
+    references country(id);
+
+# many to many
+create table city_shop(
+	id_city int,
+    id_shop int
+);
+
+alter table city_shop
+	add constraint
+    foreign key(id_city)
+    references city(id);
+
+alter table city_shop
+	add constraint
+    foreign key(id_shop)
+    references shop(id);

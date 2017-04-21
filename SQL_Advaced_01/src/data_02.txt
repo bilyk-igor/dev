@@ -1,0 +1,49 @@
+/**/
+#DDL
+drop database if exists some_database;
+create database some_database;
+
+use some_database;
+
+
+create table country(
+	id int primary key auto_increment,
+    name varchar(40)
+);
+
+create table city(
+	id int primary key auto_increment,
+    name varchar(60),
+    population int
+);
+
+create table shop(
+	id int primary key auto_increment,
+	name varchar(40),
+    address varchar(100)
+);
+
+# one to many
+alter table city add column
+	id_country int;
+
+alter table city 
+	add constraint
+    foreign key(id_country)
+    references country(id);
+
+# many to many
+create table city_shop(
+	id_city int,
+    id_shop int
+);
+
+alter table city_shop
+	add constraint 
+    foreign key(id_city)
+    references city(id);
+    
+alter table city_shop
+	add constraint 
+    foreign key(id_shop)
+    references shop(id);

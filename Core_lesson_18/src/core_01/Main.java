@@ -1,5 +1,6 @@
 package core_01;
 
+import java.util.Scanner;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
@@ -10,6 +11,10 @@ public class Main {
 
 		System.out.println(Thread.currentThread().getName());
 
+		try(Scanner scanner = new Scanner(System.in)){
+			
+		}
+		
 		// MyThread myThread = new MyThread();
 		//
 		// myThread.start();
